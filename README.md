@@ -2,6 +2,7 @@
 
 https://infinitescroller.vercel.app/
 
+<hr>
 
 # Example app with styled-components
 
