@@ -27,25 +27,6 @@ export default function Home() {
     return () => intersectionObserver.disconnect();
   }, []);
 
-  const teste = () => {
-    fetch('https://d1-dev.on.gooddata.com/gdc/account/login', {
-      postUserLogin: {
-        login: 'robson.arruda@direct.one',
-        password: 'Robson123',
-        remember: '1',
-      },
-    })
-      .then((responseJson) => {
-        console.log('Funcionou');
-      })
-      .catch((error) => {
-        console.log(error);
-        console.log('Erro');
-      });
-  };
-
-  teste();
-
   return (
     <main style={{ textAlign: 'center',  background: '#BA68C8'}}>
       <h1>GitHub API: Infinite Scroller</h1>
